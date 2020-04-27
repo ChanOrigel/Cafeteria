@@ -1,0 +1,378 @@
+﻿html
+{
+    position: relative; 
+    min-height: 100%;
+}
+body {
+    margin: 0 0 95px;
+    padding-right: 0 !important;
+
+    background: url(../Image/Paginas/cafeteria.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+th {
+    background-color : #006255;
+    color: #fff;
+}
+.btn_my_class {
+    width: 200px;
+    float: right; 
+    background-color : #000000;
+}
+
+select {
+  text-align: center;
+  text-align-last: center;
+  /* webkit*/
+}
+
+.center{
+width: 150px;
+  margin: 40px auto;
+  
+}
+textarea {
+    resize: none;
+}
+
+#mascara_excel, #mascara_xml, #mascara_pdf, #mascara_oc, #mascara_xml_nc {
+    text-align: center;                
+    font-size: 12px;    
+    text-decoration: none;
+    display: inline-block;        
+    background: #060b4c;
+    color: #fff;
+    padding: 5px;
+}
+
+.Lbl_Etiqueta {
+    background-color : #fff;
+
+}
+
+#NodoHijo >li :hover {
+    background: white;
+    color: #000000;
+}
+
+.myClass > ul >li {    
+    padding: 10px 0 10px 5px;    
+    width: 155px;
+}
+    .myClass > ul > li > button {
+        text-align: center;
+        border: 1px solid #000000;
+        -webkit-box-shadow: #b4b5b5 4px 4px 4px;
+        -moz-box-shadow: #006255 4px 4px 4px;
+        box-shadow: #006255 4px 4px 4px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        font-size: 15px;
+        font-family: arial, helvetica, sans-serif;        
+        text-decoration: none;
+        display: inline-block;
+        text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+        color: #FFFFFF;
+        background-color: darkgreen;
+        /*background-image: linear-gradient(to bottom, #a7cfdf, #23538a);*/
+        }
+        .myClass > ul > li > button :hover {
+            border: 1px solid #5d7fbc;
+            background-color: green;
+            /*background-image: linear-gradient(to bottom, #819bcb, #006255);*/
+        }
+
+.br-nav {
+    background-color: #F5F5F5;
+}
+
+.Text-design {
+    font-size: 30px;
+    text-shadow: 0.1em 0.1em 0.2em #b4b5b5;
+    
+}
+
+.btn-pagina-inicio {
+    width:185px;
+    margin-bottom: 2%;    
+}
+
+@media only screen and (min-device-width : 60px) and (max-device-width : 480px) {
+
+    .myClass > ul >li {    
+        padding: 0 5px;
+        padding-bottom: 20px;
+        width: 100%;        
+    }
+    .dataTables_info {
+        font-size: 10px;
+        text-align:center;
+    }
+    .btn_my_class {
+        width: 100%;       
+    }
+    .btn_pdf_excel_otros {
+        width:100%;
+        margin-bottom: 2%;       
+    }
+    .btn-group {
+        width:100%;
+    }
+    .btn_my_class_popup{                
+        font-size: 12px;  
+        margin-top: 2px;      
+    }  
+     #IMG_METSO_FOOTER {
+        display: none;
+    } 
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 991px) {
+    .myClass > ul > li {
+        display: inline-block;
+    }   
+    #LEFT {
+        text-align: left;
+
+    }
+    #CENTER {
+        text-align: left;
+    }    
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 560px) {
+    #LEFT {
+        text-align: center;        
+    }
+    #CENTER {
+        text-align: center;          
+    }   
+     #IMG_METSO_FOOTER {
+        display: none;
+    }  
+
+}
+
+.footer{
+  /*background: rgb(241, 241, 241);
+  border-top: 1px solid rgb(222, 222, 222);
+  margin-top: -2px;
+  padding-top: 30px;  
+  position: absolute;
+  bottom: 0;  
+  width: 100%;*/
+    border-top: 1px solid rgb(222, 222, 222);
+    /*background: rgb(241, 241, 241);*/
+    background : #464A48;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    height: 70px;
+    padding-top: 15px;      
+ }
+
+.footer a:visited {
+    color: #fff !important;
+}
+
+.footer a:active {
+    color: #fff !important;
+}
+.footer a {
+    color: #fff !important;
+}
+table.width200,table.rwd_auto {border:1px solid #ccc;width:100%;margin:0 0 50px 0}
+		.width200 th,.rwd_auto th {background:#ccc;padding:5px;text-align:center;}
+		.width200 td,.rwd_auto td {border-bottom:1px solid #ccc;padding:5px;text-align:center}
+		.width200 tr:last-child td, .rwd_auto tr:last-child td{border:0}
+		
+	.rwd {width:100%;overflow:auto;}
+		.rwd table.rwd_auto {width:auto;min-width:100%}
+			.rwd_auto th,.rwd_auto td {white-space: nowrap;}
+			
+	@media only screen and (max-width: 760px), (min-width: 768px) and (max-width: 1024px)  
+	{
+	
+		table.width200, .width200 thead, .width200 tbody, .width200 th, .width200 td, .width200 tr { display: block; }
+		
+		.width200 thead tr { position: absolute;top: -9999px;left: -9999px; }
+		
+		.width200 tr { border: 1px solid #ccc; }
+		
+		.width200 td { border: none;border-bottom: 1px solid #ccc; position: relative;padding-left: 50%;text-align:left }
+		
+		.width200 td:before {  position: absolute; top: 6px; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+				
+		
+		.descarto {display:none;}
+		.fontsize {font-size:10px}
+	}
+	
+	/* Smartphones (portrait and landscape) ----------- */
+	@media only screen and (min-width : 320px) and (max-width : 480px) 
+	{
+		
+		.descarto {display:none;}
+	}
+	
+	/* iPads (portrait and landscape) ----------- */
+	@media only screen and (min-width: 768px) and (max-width: 1024px) 
+	{
+		
+		.descarto {display:none;}
+		.fontsize {font-size:10px}
+	}
+
+
+.dialogWide {
+    position: fixed;
+    overflow-y: scroll;    
+}
+
+div#Derecho { 
+    float: left;
+    margin-top: 0px;
+    margin-left: 50px;
+    width: 45%;
+    height:350px;
+}
+div#Izquierdo { 
+    float: left;
+    margin-top: 0px;
+    margin-left: 50px;
+    width: 45%;
+    height:350px;
+}
+
+div#Reg_Datos { 
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px;
+    height: 40%;
+    width:45%;
+}
+div#cont_alta { 
+    float: left;
+    margin-top: 0px;
+    margin-left: 50px;
+    height: 40%;
+    width:49%;
+
+}
+
+.btn_pendiente {
+    width: 200px;
+    float: right;
+    background-color: #0a85f7; /*#a7cfdf;*/
+}
+.btn_my_imprimir {
+    width: 465px;
+    float: right; 
+    font-size: 15px;    
+    font-family: arial, helvetica, sans-serif; 
+}
+.btn_principal_ventas {
+    width: 80px;
+    height:55px;
+    float: left; 
+    font-size: 18px;    
+    color: #000000;   
+    border: 1px solid #000;
+    background-color: #a7cfdf;
+    margin-left: 5px;
+
+}
+.btn_x {
+    width: 90px;
+    height:270px;
+    float: right; 
+    font-size: 20px;    
+    color: #000000;   
+    border: 1px solid #000;
+    background-color: #b6ff00;
+
+}
+.btn_my_agregar {
+    width: 200px;
+    float: right; 
+    font-size: 15px;    
+    font-family: arial, helvetica, sans-serif; 
+}
+.total {
+    /*width: 200px;*/
+    float: right; 
+    font-size: 15px;    
+    background-color: #a7cfdf;
+}
+  .Modal_Excel {
+      top:100px;
+      left:200px;
+        background: #006255;
+        text-align: center;
+        position:fixed;
+        padding:30px;
+        width:500px;
+        height:180px;
+
+        border-radius: 3px;
+        font-size: 12px;
+        font-family: arial, helvetica, sans-serif;        
+        display: inline-block;
+        color: #FFFFFF;
+        }
+  .BOTON { 
+    float: right;
+    margin-left: 15px;
+    width: 150px;
+    height:70px;
+}
+    .radio { 
+    float: left;
+    width:30px;
+    height:30px;
+}
+        .labeles { 
+  font-size: 135%;
+    margin-bottom: 2px;
+  
+}
+
+.caja {
+   margin:20px auto 40px auto;	
+   border:1px solid #d9d9d9;
+   height:30px;
+   overflow: hidden;
+   width: 500px;
+   position:relative;
+}
+select {
+   background: transparent;
+   border: none;
+   font-size: 24px;
+   height: 30px;
+   padding: 5px;
+   width: 450px;
+}
+select:focus{ outline: none;}
+
+.caja::after{
+	content:"\025be";
+	display:table-cell;
+	padding-top:7px;
+	text-align:center;
+	width:500px;
+	height:30px;
+	background-color:#d9d9d9;
+	position:absolute;
+	top:0;
+	right:0px;	
+	pointer-events: none;
+}
+
+
+  

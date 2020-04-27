@@ -1,0 +1,12 @@
+[
+	//{menu_id : 1, nombre: "Principal", parent_id: 0, enlace: "Frm_Ventas.aspx"},
+	{menu_id : 2, nombre: "Categorias", parent_id: 0, enlace: ""},		
+	{menu_id : 3, nombre: "Operaciones", parent_id: 0, enlace: ""},
+
+	{menu_id : 4, nombre: "Usuarios", parent_id: 2, enlace: "RioGrande-Usuario.aspx"},			
+	{menu_id : 7, nombre: "Productos", parent_id: 2, enlace: "Frm_Productos.aspx"},
+	{menu_id : 8, nombre: "Par&aacute;metros", parent_id: 2, enlace: "Frm_Parametros.aspx"},
+	{menu_id : 11, nombre: "Ventas", parent_id:2, enlace: "Frm_Ventas.aspx"},
+	{menu_id : 12, nombre: "Cortes/Reportes", parent_id: 2, enlace: "Frm_Balance.aspx"}
+
+]

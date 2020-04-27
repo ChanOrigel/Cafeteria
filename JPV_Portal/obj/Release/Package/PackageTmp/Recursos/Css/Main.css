@@ -1,0 +1,446 @@
+﻿
+@font-face {
+    font-family: "font_1";
+    src: url("../Fonts/Roboto/Roboto-Regular.ttf");
+}
+
+* {
+    font-family: font_1;
+}
+
+html {
+    height: 100%;
+    /*background: rgba(0,0,0,0.3);*/
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    /*background-repeat: no-repeat;
+    background-attachment: fixed;*/
+  
+    background: url(../Image/Paginas/cafeteria.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+    background: linear-gradient(white, #E9EBEE);*/
+    /*font-family: "Montserrat", sans-serif;
+    background-color: #faa764;*/
+}
+/*body {
+    font-family: "Montserrat", sans-serif;
+    font-smoothing: antialiased;
+}*/
+
+h2 {
+    -webkit-text-stroke: 1px black;
+    color: #c99073 ;/*#faa764;*/
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*color: darkgreen;
+    text-shadow: 0 1px 2px rgba(black,.15);*/
+}
+h4 {
+    -webkit-text-stroke: 1px black;
+    color: #a0e0fa;
+    /*text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*color: darkgreen;
+    text-shadow: 0 1px 2px rgba(black,.15);*/
+}
+
+
+#form1 {
+    height: 100%;
+    width: 100%;
+}
+
+
+#li-btn {
+    text-align: center;
+}
+
+.iframe-container {
+    width: 100%;
+    height: 100%;
+}
+/* make sidebar nav vertical */
+@media (min-width: 220px) {
+
+    .affix-content .container {
+        width: 100%;
+    }
+
+        .affix-content .container .page-header {
+            margin-top: 0;
+        }
+
+    .sidebar-nav {
+        width: 100%;
+    }
+
+    .affix-sidebar {
+        padding: 0;
+        font-size: small;
+    }
+
+    .affix-row, .affix-container, .affix-content {
+        height: 100%;
+        margin: 0;
+        margin-right: 0;
+    }
+
+    .affix-content {
+        background-color: white;
+    }
+
+    .sidebar-nav .navbar {
+        border-radius: 0;
+        margin-bottom: 0;
+        border: 0;
+    }
+
+        .sidebar-nav .navbar ul {
+            float: none;
+            display: block;
+        }
+
+        .sidebar-nav .navbar li {
+            float: none;
+            display: block;
+        }
+
+            .sidebar-nav .navbar li a {
+                padding-top: 12px;
+                padding-bottom: 12px;
+            }
+}
+
+@media (min-width: 765px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+}
+
+@media (min-width: 1120px) {
+
+    .affix-content .container {
+        width: 100%;
+    }
+
+        .affix-content .container .page-header {
+            margin-top: 0;
+        }
+}
+
+@media (min-width: 1250px) {
+    .affix-row {
+        overflow: hidden;
+    }
+
+    .affix-content {
+        overflow: auto;
+    }
+
+        .affix-content .container {
+            width: 100%;
+        }
+
+            .affix-content .container .page-header {
+                margin-top: 0;
+            }
+
+    .affix-content {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .affix-title {
+        border-bottom: 1px solid #ecf0f1;
+        padding-bottom: 10px;
+    }
+
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .navbar-collapse {
+        padding: 0;
+    }
+
+    .sidebar-nav .navbar li a:hover {
+        background-color: #428bca;
+        color: white;
+    }
+
+    .sidebar-nav .navbar li a > .caret {
+        margin-top: 8px;
+    }
+}
+/*BOTONES TEST*/
+@import url("https://fonts.googleapis.com/css?family=Mukta:700");
+
+* {
+    box-sizing: border-box;
+}
+
+    *::before, *::after {
+        box-sizing: border-box;
+    }
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+    button.learn-more {
+        width: 12rem;
+        height: auto;
+    }
+
+        button.learn-more .circle {
+            -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+            transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+            position: relative;
+            display: block;
+            margin: 0;
+            width: 3rem;
+            height: 3rem;
+            background: #282936;
+            border-radius: 1.625rem;
+        }
+
+            button.learn-more .circle .icon {
+                -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background: #fff;
+            }
+
+                button.learn-more .circle .icon.arrow {
+                    -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                    left: 0.625rem;
+                    width: 1.125rem;
+                    height: 0.125rem;
+                    background: none;
+                }
+
+                    button.learn-more .circle .icon.arrow::before {
+                        position: absolute;
+                        content: "";
+                        top: -0.25rem;
+                        right: 0.0625rem;
+                        width: 0.625rem;
+                        height: 0.625rem;
+                        border-top: 0.125rem solid #fff;
+                        border-right: 0.125rem solid #fff;
+                        -webkit-transform: rotate(45deg);
+                        transform: rotate(45deg);
+                    }
+
+        button.learn-more .button-text {
+            -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+            transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 0.75rem 0;
+            margin: 0 0 0 1.85rem;
+            color: #282936;
+            font-weight: 700;
+            line-height: 1.6;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+    button:hover .circle {
+        width: 100%;
+    }
+
+        button:hover .circle .icon.arrow {
+            background: #fff;
+            -webkit-transform: translate(1rem, 0);
+            transform: translate(1rem, 0);
+        }
+
+    button:hover .button-text {
+        color: #fff;
+    }
+/*BOTONES TES FIN*/
+
+
+/*USUARIO*/
+
+.btn_my_class {
+    width: 200px;
+    float: right;
+}
+
+.myClass > ul > li {
+    padding: 10px 0 10px 5px;
+    width: 180px;
+}
+
+    .myClass > ul > li > button { /*botones del menu del nav*/
+        text-align: center;
+        border: 3px solid #7eb9d0;
+        -webkit-box-shadow: #b4b5b5 4px 4px 4px;
+        -moz-box-shadow: #b4b5b5 4px 4px 4px;
+        box-shadow: #b4b5b5 4px 4px 4px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        font-size: 24px;
+        font-family: Calibri, helvetica, sans-serif;
+        text-decoration: solid;
+        display: inline-block;
+        text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+        color: #E9EBEE;
+        background-color: darkgreen;
+        /*background-color: #7eb9d0;*/
+        /*background-color: #006255;*/
+    }
+
+        .myClass > ul > li > button :hover {
+            border: 1px solid #5d7fbc;
+            background-color: green;
+            /*background-image: linear-gradient(to bottom, #819bcb, #536f9d)*/;
+        }
+
+.br-nav { /*color del background nav menu*/
+    background-color: white;
+}
+
+@media only screen and (min-device-width : 60px) and (max-device-width : 480px) {
+    .myClass > ul > li {
+        padding: 23px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .btn_my_class {
+        width: 100%;
+        float: right;
+    }
+
+    #btn_cerrar_sesion {
+        width: 100%;
+    }
+
+    #li-btn {
+        margin: 0;
+    }
+
+    #IMASEN_img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 991px) {
+    .myClass > ul > li {
+        display: inline-block;
+    }
+}
+
+/*ACCESOS */
+.material-switch > input[type="checkbox"] {
+    display: none;
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative;
+    width: 40px;
+}
+
+    .material-switch > label::before {
+        background: rgb(0, 0, 0);
+        box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+        content: '';
+        height: 16px;
+        margin-top: -8px;
+        position: absolute;
+        opacity: 0.3;
+        transition: all 0.4s ease-in-out;
+        width: 40px;
+    }
+
+    .material-switch > label::after {
+        background: rgb(255, 255, 255);
+        border-radius: 16px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+        content: '';
+        height: 24px;
+        left: -4px;
+        margin-top: -8px;
+        position: absolute;
+        top: -4px;
+        transition: all 0.3s ease-in-out;
+        width: 24px;
+    }
+
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+
+/******MODAL******/
+
+.modal-footer {
+    background: #F5F5F5;
+}
+
+@media (min-width: 992px) {
+    .header a {
+        display: none;
+    }
+}
+
+.mm-navbar_tabs span {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+@media (max-width: 450px) {
+    .mm-navbar_tabs span {
+        display: none;
+    }
+}

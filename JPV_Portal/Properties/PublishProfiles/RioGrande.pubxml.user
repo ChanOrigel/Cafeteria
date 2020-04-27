@@ -1,0 +1,1348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\jrvj1\Desktop\Compilados_RioGrande</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/CarlosAg.ExcelXmlWriter.dll">
+      <publishTime>04/27/2014 10:44:06</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>03/05/2018 21:11:50</publishTime>
+    </File>
+    <File Include="bin/es/System.Net.Http.Formatting.resources.dll">
+      <publishTime>01/28/2015 05:02:48</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Http.resources.dll">
+      <publishTime>01/28/2015 05:02:58</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Http.WebHost.resources.dll">
+      <publishTime>01/28/2015 05:03:50</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>02/26/2018 11:31:04</publishTime>
+    </File>
+    <File Include="bin/JPV_Portal.dll">
+      <publishTime>04/24/2020 14:18:19</publishTime>
+    </File>
+    <File Include="bin/JPV_Portal.pdb">
+      <publishTime>04/24/2020 14:18:19</publishTime>
+    </File>
+    <File Include="bin/LibPrintTicket.dll">
+      <publishTime>05/24/2018 09:24:10</publishTime>
+    </File>
+    <File Include="bin/LibPrintTicket.pdb">
+      <publishTime>05/24/2018 09:24:10</publishTime>
+    </File>
+    <File Include="bin/LitJSON.dll">
+      <publishTime>02/26/2018 11:29:59</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 21:33:56</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 04:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 04:03:46</publishTime>
+    </File>
+    <File Include="Imagen/monochrome.jpg">
+      <publishTime>05/24/2018 09:44:15</publishTime>
+    </File>
+    <File Include="JS/Cajas.js">
+      <publishTime>04/02/2018 01:04:45</publishTime>
+    </File>
+    <File Include="JS/Controlador_Sesion.js">
+      <publishTime>02/25/2018 23:35:59</publishTime>
+    </File>
+    <File Include="JS/In_Cajas.js">
+      <publishTime>04/05/2018 11:00:26</publishTime>
+    </File>
+    <File Include="JS/Js_A_Pagar.js">
+      <publishTime>05/28/2018 12:43:14</publishTime>
+    </File>
+    <File Include="JS/Js_Balance.js">
+      <publishTime>03/22/2020 19:40:32</publishTime>
+    </File>
+    <File Include="JS/Js_Cat_Clientes.js">
+      <publishTime>12/02/2018 10:53:22</publishTime>
+    </File>
+    <File Include="JS/Js_Entrada_Mercancia.js">
+      <publishTime>06/02/2018 14:48:56</publishTime>
+    </File>
+    <File Include="JS/Js_Parametros.js">
+      <publishTime>02/25/2020 17:53:35</publishTime>
+    </File>
+    <File Include="JS/Js_Productos.js">
+      <publishTime>03/23/2020 17:56:34</publishTime>
+    </File>
+    <File Include="JS/Js_Salida_Mercancia.js">
+      <publishTime>06/05/2018 14:13:40</publishTime>
+    </File>
+    <File Include="JS/Js_Ventas.js">
+      <publishTime>03/08/2020 09:57:47</publishTime>
+    </File>
+    <File Include="JS/MasterPage.js">
+      <publishTime>02/16/2020 15:46:43</publishTime>
+    </File>
+    <File Include="JS/Proveedor.js">
+      <publishTime>04/02/2018 01:22:01</publishTime>
+    </File>
+    <File Include="JS/SingIn.js">
+      <publishTime>04/23/2020 19:27:23</publishTime>
+    </File>
+    <File Include="JS/Usuarios.js">
+      <publishTime>02/16/2020 14:35:59</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/10/2018 14:57:24</publishTime>
+    </File>
+    <File Include="Portal/Administrador.json">
+      <publishTime>03/23/2020 14:29:57</publishTime>
+    </File>
+    <File Include="Portal/Controllers/Ctrl_A_Pagar.asmx">
+      <publishTime>03/26/2018 22:10:32</publishTime>
+    </File>
+    <File Include="Portal/Controllers/Ctrl_Balance.asmx">
+      <publishTime>03/11/2020 21:22:39</publishTime>
+    </File>
+    <File Include="Portal/Controllers/Ctrl_Cajas.asmx">
+      <publishTime>04/02/2018 00:34:05</publishTime>
+    </File>
+    <File Include="Portal/Controllers/Ctrl_Clientes.asmx">
+      <publishTime>02/27/2018 14:18:33</publishTime>
+    </File>
+    <File Include="Portal/Controllers/Ctrl_Entrada_Mercancia.asmx">
+      <publishTime>02/28/2018 15:25:51</publishTime>
+    </File>
+    <File Include="Portal/Controllers/Ctrl_General.asmx">
+      <publishTime>04/02/2018 01:09:50</publishTime>
+    </File>
+    <File Include="Portal/Controllers/Ctrl_Parametros.asmx">
+      <publishTime>02/27/2018 22:29:32</publishTime>
+    </File>
+    <File Include="Portal/Controllers/Ctrl_Productos.asmx">
+      <publishTime>02/27/2018 17:55:11</publishTime>
+    </File>
+    <File Include="Portal/Controllers/Ctrl_Provedores.asmx">
+      <publishTime>04/02/2018 00:43:15</publishTime>
+    </File>
+    <File Include="Portal/Controllers/Ctrl_Salida_Mercancia.asmx">
+      <publishTime>03/03/2018 16:49:23</publishTime>
+    </File>
+    <File Include="Portal/Controllers/Ctrl_Usuarios.asmx">
+      <publishTime>02/26/2018 16:00:36</publishTime>
+    </File>
+    <File Include="Portal/Controllers/Ctrl_Ventas.asmx">
+      <publishTime>03/10/2018 21:10:12</publishTime>
+    </File>
+    <File Include="Portal/Empleado.json">
+      <publishTime>03/23/2020 14:30:38</publishTime>
+    </File>
+    <File Include="Portal/Frm_A_Pagar.aspx">
+      <publishTime>05/09/2018 16:07:39</publishTime>
+    </File>
+    <File Include="Portal/Frm_Balance.aspx">
+      <publishTime>03/22/2020 18:27:24</publishTime>
+    </File>
+    <File Include="Portal/Frm_Cat_Clientes.aspx">
+      <publishTime>05/25/2018 19:01:21</publishTime>
+    </File>
+    <File Include="Portal/Frm_Entrada_Mercancia.aspx">
+      <publishTime>05/25/2018 19:38:38</publishTime>
+    </File>
+    <File Include="Portal/Frm_Parametros.aspx">
+      <publishTime>02/25/2020 19:21:25</publishTime>
+    </File>
+    <File Include="Portal/Frm_Productos.aspx">
+      <publishTime>03/23/2020 23:59:49</publishTime>
+    </File>
+    <File Include="Portal/Frm_Salida_Mercancia.aspx">
+      <publishTime>06/05/2018 14:09:36</publishTime>
+    </File>
+    <File Include="Portal/Frm_Ventas.aspx">
+      <publishTime>04/19/2020 19:15:59</publishTime>
+    </File>
+    <File Include="Portal/MasterPage.Master">
+      <publishTime>03/23/2020 18:33:56</publishTime>
+    </File>
+    <File Include="Portal/Menu.ascx">
+      <publishTime>02/26/2018 10:28:14</publishTime>
+    </File>
+    <File Include="Portal/RioGrande-Cajas.aspx">
+      <publishTime>04/02/2018 00:44:16</publishTime>
+    </File>
+    <File Include="Portal/RioGrande-In-Cajas.aspx">
+      <publishTime>04/05/2018 11:15:07</publishTime>
+    </File>
+    <File Include="Portal/RioGrande-Proveedores.aspx">
+      <publishTime>04/02/2018 00:43:58</publishTime>
+    </File>
+    <File Include="Portal/RioGrande-Usuario.aspx">
+      <publishTime>02/25/2020 19:13:52</publishTime>
+    </File>
+    <File Include="Portal/RioGrande.aspx">
+      <publishTime>02/26/2018 14:11:08</publishTime>
+    </File>
+    <File Include="Portal/SignIn.aspx">
+      <publishTime>02/16/2020 15:45:34</publishTime>
+    </File>
+    <File Include="Portal/WebSessions.aspx">
+      <publishTime>02/26/2018 10:31:27</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/css/bootstrap-grid.css">
+      <publishTime>02/25/2018 11:20:26</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/css/bootstrap-grid.css.map">
+      <publishTime>02/25/2018 11:20:26</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css">
+      <publishTime>02/25/2018 11:20:26</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css.map">
+      <publishTime>02/25/2018 11:20:26</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/css/bootstrap-reboot.css">
+      <publishTime>02/25/2018 11:20:26</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/css/bootstrap-reboot.css.map">
+      <publishTime>02/25/2018 11:20:26</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css">
+      <publishTime>02/25/2018 11:20:26</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css.map">
+      <publishTime>02/25/2018 11:20:26</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/css/bootstrap.css">
+      <publishTime>02/25/2018 11:20:26</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/css/bootstrap.css.map">
+      <publishTime>02/25/2018 11:20:26</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+      <publishTime>02/26/2018 19:09:35</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/css/bootstrap.min.css.map">
+      <publishTime>02/25/2018 11:20:26</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/js/bootstrap.bundle.js">
+      <publishTime>02/25/2018 11:20:26</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/js/bootstrap.bundle.js.map">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js.map">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/js/bootstrap.js">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/js/bootstrap.js.map">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/js/bootstrap.min.js">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-4.0.0-dist/js/bootstrap.min.js.map">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-box/bootbox.js">
+      <publishTime>02/16/2020 15:49:09</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-box/dialogs.js">
+      <publishTime>03/28/2018 14:28:23</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-combo/es.js">
+      <publishTime>02/28/2018 17:49:37</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-combo/jquery.select2.js">
+      <publishTime>02/28/2018 17:49:39</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-combo/select2-bootstrap.css">
+      <publishTime>02/28/2018 17:49:41</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-combo/select2.css">
+      <publishTime>02/28/2018 17:49:39</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-combo/select2.full.js">
+      <publishTime>02/28/2018 17:49:40</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-combo/select2.js">
+      <publishTime>02/28/2018 17:49:40</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-combo/select2_locale_es.js">
+      <publishTime>02/28/2018 17:49:41</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-select/css/bootstrap-select.css">
+      <publishTime>02/28/2018 17:50:02</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-select/css/bootstrap-select.css.map">
+      <publishTime>02/28/2018 17:50:02</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-select/css/bootstrap-select.min.css">
+      <publishTime>02/28/2018 17:50:02</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-select/js/bootstrap-select.js">
+      <publishTime>02/28/2018 17:50:02</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-select/js/bootstrap-select.js.map">
+      <publishTime>02/28/2018 17:50:02</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-select/js/bootstrap-select.min.js">
+      <publishTime>02/28/2018 17:50:02</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-select/js/i18n/defaults-en_US.js">
+      <publishTime>02/28/2018 17:50:02</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-select/js/i18n/defaults-en_US.min.js">
+      <publishTime>02/28/2018 17:50:02</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-select/js/i18n/defaults-es_CL.js">
+      <publishTime>02/28/2018 17:50:02</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-select/js/i18n/defaults-es_CL.min.js">
+      <publishTime>02/28/2018 17:50:02</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-table/bootstrap-table.min.css">
+      <publishTime>03/02/2018 17:07:05</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-table/bootstrap-table.min.js">
+      <publishTime>03/02/2018 17:07:05</publishTime>
+    </File>
+    <File Include="Recursos/bootstrap-table/locale/bootstrap-table-es-MX.min.js">
+      <publishTime>03/02/2018 17:07:05</publishTime>
+    </File>
+    <File Include="Recursos/Css/JPV_Login.css">
+      <publishTime>03/23/2020 18:10:26</publishTime>
+    </File>
+    <File Include="Recursos/Css/jquery.dataTables.min.css">
+      <publishTime>02/26/2018 11:52:32</publishTime>
+    </File>
+    <File Include="Recursos/Css/jquery.mmenu.all.css">
+      <publishTime>05/14/2018 20:26:15</publishTime>
+    </File>
+    <File Include="Recursos/Css/Main.css">
+      <publishTime>03/23/2020 18:29:04</publishTime>
+    </File>
+    <File Include="Recursos/Css/popModal.min.css">
+      <publishTime>02/26/2018 17:42:35</publishTime>
+    </File>
+    <File Include="Recursos/Css/StyleSheet.css">
+      <publishTime>03/23/2020 22:55:38</publishTime>
+    </File>
+    <File Include="Recursos/DataTableScripts/dataTables.bootstrap.min.js">
+      <publishTime>03/26/2018 15:52:43</publishTime>
+    </File>
+    <File Include="Recursos/DataTableScripts/dataTables.responsive.min.js">
+      <publishTime>03/26/2018 15:52:43</publishTime>
+    </File>
+    <File Include="Recursos/DataTableScripts/jquery-1.12.3.js">
+      <publishTime>03/26/2018 15:52:43</publishTime>
+    </File>
+    <File Include="Recursos/DataTableScripts/jquery.dataTables.min.js">
+      <publishTime>03/26/2018 15:52:43</publishTime>
+    </File>
+    <File Include="Recursos/DataTableScripts/responsive.bootstrap.min.js">
+      <publishTime>03/26/2018 15:52:43</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/css/font-awesome.css">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/fonts/FontAwesome.otf">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/HELP-US-OUT.txt">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/less/animated.less">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/less/bordered-pulled.less">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/less/core.less">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/less/fixed-width.less">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/less/font-awesome.less">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/less/icons.less">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/less/larger.less">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/less/list.less">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/less/mixins.less">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/less/path.less">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/less/rotated-flipped.less">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/less/screen-reader.less">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/less/stacked.less">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/less/variables.less">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/scss/font-awesome.scss">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/scss/_animated.scss">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/scss/_core.scss">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/scss/_fixed-width.scss">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/scss/_icons.scss">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/scss/_larger.scss">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/scss/_list.scss">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/scss/_mixins.scss">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/scss/_path.scss">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/scss/_screen-reader.scss">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/scss/_stacked.scss">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/font-awesome-4.7.0/scss/_variables.scss">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/Roboto/LICENSE.txt">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/Roboto/Roboto-Black.ttf">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/Roboto/Roboto-BlackItalic.ttf">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/Roboto/Roboto-Bold.ttf">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/Roboto/Roboto-BoldItalic.ttf">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/Roboto/Roboto-Italic.ttf">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/Roboto/Roboto-Light.ttf">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/Roboto/Roboto-LightItalic.ttf">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/Roboto/Roboto-Medium.ttf">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/Roboto/Roboto-MediumItalic.ttf">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/Roboto/Roboto-Regular.ttf">
+      <publishTime>02/25/2018 11:20:27</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/Roboto/Roboto-Thin.ttf">
+      <publishTime>02/25/2018 11:20:28</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/Roboto/Roboto-ThinItalic.ttf">
+      <publishTime>02/25/2018 11:20:28</publishTime>
+    </File>
+    <File Include="Recursos/Fonts/Typo Style Regular Demo.otf">
+      <publishTime>02/25/2018 11:20:28</publishTime>
+    </File>
+    <File Include="Recursos/Image/Paginas/bg2.png">
+      <publishTime>05/28/2018 08:20:52</publishTime>
+    </File>
+    <File Include="Recursos/Image/Paginas/cafeteria.jpg">
+      <publishTime>03/23/2020 18:09:45</publishTime>
+    </File>
+    <File Include="Recursos/Javascript/backstretch.min.js">
+      <publishTime>02/25/2018 11:20:28</publishTime>
+    </File>
+    <File Include="Recursos/Javascript/JPV-login.js">
+      <publishTime>03/23/2020 18:10:19</publishTime>
+    </File>
+    <File Include="Recursos/Javascript/popModal.min.js">
+      <publishTime>02/26/2018 17:42:47</publishTime>
+    </File>
+    <File Include="Recursos/jquery-1.11.1.min.js">
+      <publishTime>03/26/2018 15:53:19</publishTime>
+    </File>
+    <File Include="Recursos/jquery-2.1.1.min.js">
+      <publishTime>03/26/2018 15:53:19</publishTime>
+    </File>
+    <File Include="Recursos/jquery-migrate-1.2.1.min.js">
+      <publishTime>03/26/2018 15:53:19</publishTime>
+    </File>
+    <File Include="Recursos/jquery.validate.min.js">
+      <publishTime>03/26/2018 15:53:19</publishTime>
+    </File>
+    <File Include="Recursos/Jquery/dataTables.responsive.min.js">
+      <publishTime>02/26/2018 12:07:16</publishTime>
+    </File>
+    <File Include="Recursos/Jquery/jquery-3.3.1.min.js">
+      <publishTime>02/25/2018 11:20:28</publishTime>
+    </File>
+    <File Include="Recursos/Jquery/jquery-migrate-3.0.0.min.js">
+      <publishTime>02/25/2018 11:20:28</publishTime>
+    </File>
+    <File Include="Recursos/Jquery/jquery-ui.js">
+      <publishTime>02/26/2018 12:07:52</publishTime>
+    </File>
+    <File Include="Recursos/Jquery/jquery.dataTables.min.js">
+      <publishTime>02/26/2018 12:07:13</publishTime>
+    </File>
+    <File Include="Recursos/Jquery/jquery.fileupload.js">
+      <publishTime>02/26/2018 12:07:45</publishTime>
+    </File>
+    <File Include="Recursos/Jquery/jquery.iframe-transport.js">
+      <publishTime>02/26/2018 12:07:30</publishTime>
+    </File>
+    <File Include="Recursos/Jquery/jquery.mmenu.all.js">
+      <publishTime>02/26/2018 12:04:34</publishTime>
+    </File>
+    <File Include="Recursos/Jquery/jquery.ui.widget.js">
+      <publishTime>02/26/2018 12:07:38</publishTime>
+    </File>
+    <File Include="Recursos/plugins/accounting.min.js">
+      <publishTime>05/09/2018 16:04:32</publishTime>
+    </File>
+    <File Include="Recursos/plugins/bootstrap-session-timeout.min.js">
+      <publishTime>05/09/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Recursos/plugins/custom.js">
+      <publishTime>05/09/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Recursos/plugins/date.js">
+      <publishTime>05/09/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Recursos/plugins/es-MX.js">
+      <publishTime>05/09/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Recursos/plugins/jquery.appear.js">
+      <publishTime>05/09/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Recursos/plugins/jquery.backstretch.min.js">
+      <publishTime>05/09/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Recursos/plugins/jquery.formatCurrency-1.4.0.min.js">
+      <publishTime>05/09/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Recursos/plugins/jquery.formatCurrency.all.js">
+      <publishTime>05/09/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Recursos/plugins/jquery.qtip-1.0.0-rc3.min.js">
+      <publishTime>05/09/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Recursos/plugins/jquery.ui.shake.min.js">
+      <publishTime>05/09/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Recursos/plugins/jquery_jclock.js">
+      <publishTime>05/09/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Recursos/plugins/modernizr.js">
+      <publishTime>05/09/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Recursos/plugins/template.js">
+      <publishTime>05/09/2018 16:04:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/.editorconfig">
+      <publishTime>02/28/2018 18:11:29</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/.github/CONTRIBUTING.md">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/.github/ISSUE_TEMPLATE.md">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/.github/PULL_REQUEST_TEMPLATE.md">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/.gitignore">
+      <publishTime>02/28/2018 18:11:29</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/.jshintignore">
+      <publishTime>02/28/2018 18:11:29</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/.jshintrc">
+      <publishTime>02/28/2018 18:11:29</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/.travis.yml">
+      <publishTime>02/28/2018 18:11:29</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/bower.json">
+      <publishTime>02/28/2018 18:11:29</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/CHANGELOG.md">
+      <publishTime>02/28/2018 18:11:29</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/component.json">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/composer.json">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/css/select2.css">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/css/select2.min.css">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/af.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/ar.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/az.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/bg.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/bs.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/ca.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/cs.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/da.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/de.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/dsb.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/el.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/en.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/es.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/et.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/eu.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/fa.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/fi.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/fr.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/gl.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/he.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/hi.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/hr.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/hsb.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/hu.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/hy.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/id.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/is.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/it.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/ja.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/km.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/ko.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/lt.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/lv.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/mk.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/ms.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/nb.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/nl.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/pl.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/ps.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/pt-BR.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/pt.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/ro.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/ru.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/sk.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/sl.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/sr-Cyrl.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/sr.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/sv.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/th.js">
+      <publishTime>02/28/2018 18:11:31</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/tk.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/tr.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/uk.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/vi.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/zh-CN.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/i18n/zh-TW.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/select2.full.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/select2.full.min.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/select2.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/dist/js/select2.min.js">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/docs/announcements-4.0.html">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/docs/community.html">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/docs/examples.html">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/docs/index.html">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/docs/options-old.html">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/docs/options.html">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/docs/README.md">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/Gruntfile.js">
+      <publishTime>02/28/2018 18:11:29</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/LICENSE.md">
+      <publishTime>02/28/2018 18:11:29</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/package.json">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/README.md">
+      <publishTime>02/28/2018 18:11:29</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/select2.jquery.json">
+      <publishTime>02/28/2018 18:11:30</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/banner.end.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/banner.start.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/jquery.mousewheel.shim.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/jquery.select2.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/jquery.shim.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/compat/containerCss.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/compat/dropdownCss.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/compat/initSelection.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/compat/inputData.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/compat/matcher.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/compat/query.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/compat/utils.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/core.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/data/ajax.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/data/array.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/data/base.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/data/maximumInputLength.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/data/maximumSelectionLength.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/data/minimumInputLength.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/data/select.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/data/tags.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/data/tokenizer.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/defaults.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/diacritics.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/dropdown.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/dropdown/attachBody.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/dropdown/attachContainer.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/dropdown/closeOnSelect.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/dropdown/hidePlaceholder.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/dropdown/infiniteScroll.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/dropdown/minimumResultsForSearch.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/dropdown/search.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/dropdown/selectOnClose.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/dropdown/stopPropagation.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/af.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/ar.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/az.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/bg.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/bs.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/ca.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/cs.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/da.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/de.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/dsb.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/el.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/en.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/es.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/et.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/eu.js">
+      <publishTime>02/28/2018 18:11:33</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/fa.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/fi.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/fr.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/gl.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/he.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/hi.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/hr.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/hsb.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/hu.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/hy.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/id.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/is.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/it.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/ja.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/km.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/ko.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/lt.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/lv.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/mk.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/ms.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/nb.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/nl.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/pl.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/ps.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/pt-BR.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/pt.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/ro.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/ru.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/sk.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/sl.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/sr-Cyrl.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/sr.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/sv.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/th.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/tk.js">
+      <publishTime>02/28/2018 18:11:34</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/tr.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/uk.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/vi.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/zh-CN.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/i18n/zh-TW.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/keys.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/options.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/results.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/selection/allowClear.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/selection/base.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/selection/clickMask.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/selection/eventRelay.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/selection/multiple.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/selection/placeholder.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/selection/search.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/selection/single.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/selection/stopPropagation.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/translation.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/select2/utils.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/wrapper.end.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/js/wrapper.start.js">
+      <publishTime>02/28/2018 18:11:32</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/scss/core.scss">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/scss/mixins/_gradients.scss">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/scss/theme/classic/layout.scss">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/scss/theme/classic/_defaults.scss">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/scss/theme/classic/_multiple.scss">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/scss/theme/classic/_single.scss">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/scss/theme/default/layout.scss">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/scss/theme/default/_multiple.scss">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/scss/theme/default/_single.scss">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/scss/_dropdown.scss">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/scss/_multiple.scss">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/src/scss/_single.scss">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/a11y/search-tests.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/a11y/selection-tests.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/data/array-tests.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/data/base-tests.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/data/inputData-tests.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/data/maximumInputLength-tests.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/data/maximumSelectionLength-tests.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/data/minimumInputLength-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/data/select-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/data/tags-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/data/tokenizer-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/dropdown/dropdownCss-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/dropdown/positioning-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/dropdown/selectOnClose-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/dropdown/stopPropagation-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/helpers.js">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/integration.html">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/integration/dom-changes.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/integration/jquery-calls.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/integration/select2-methods.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/options/ajax-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/options/data-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/options/deprecated-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/options/translation-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/options/width-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/results/focusing-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/selection/allowClear-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/selection/containerCss-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/selection/multiple-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/selection/placeholder-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/selection/search-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/selection/single-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/selection/stopPropagation-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/unit.html">
+      <publishTime>02/28/2018 18:11:35</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/utils/decorator-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/utils/escapeMarkup-tests.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/vendor/jquery-1.7.2.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/vendor/qunit-1.23.1.css">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/tests/vendor/qunit-1.23.1.js">
+      <publishTime>02/28/2018 18:11:36</publishTime>
+    </File>
+    <File Include="Recursos/select2-4.0.6-rc.1/vendor/jquery-2.1.0.js">
+      <publishTime>02/28/2018 18:11:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/23/2020 19:40:01</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
